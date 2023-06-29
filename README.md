@@ -4,11 +4,7 @@ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers @nomic
 -> add the required dependencies 
 -> try running the below tasks 
 ``` shell 
-yarn hardhat help
-yarn hardhat node
-yarn hardhat deploy
-yarn hardhat test
-yarn hardhat deploy --network sepolia 
+yarn hardhat run scripts/aaveBorrow.js 
 ```
 
 Everthing will be done programatically interacting with the AAVE contracts:
