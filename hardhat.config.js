@@ -16,7 +16,6 @@ const Etherscan_API_KEY = process.env.Etherscan_API_KEY;
 const Coinmarketcap_API_KEY = process.env.Coinmarketcap_API_KEY;
 const RPC_URL_Alchemy_MAINNET = process.env.RPC_URL_Alchemy_MAINNET
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   defaultNetwork: "hardhat",
   networks: {
